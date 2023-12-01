@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* general */
+
+.float-item {
+  float: left;
+}
+.clearfix {
+  clear: both;
+}
+
+/* navbar */
+.navbar {
+  padding: 20px 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.logo {
+  display: inline-block;
+  width: 30%;
+}
+.list {
+  display: inline-block;
+  width: 45%;
+}
+.list ul {
+  list-style: none;
+}
+.list ul li {
+  float: left;
+  padding-right: 20px;
+}
+.icons {
+  display: inline-block;
+}
+.icons i {
+  font-size: 18px;
+  padding-right: 15px;
+  color: #384aeb;
+}
+.button {
+  display: inline-block;
+  border: 1px solid #384aeb;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+/*header*/
+.header-picture {
+  width: 40%;
+}
+.header-picture img {
+  width: 100%;
+}
+.header-content {
+  width: 55%;
+  padding-top: 180px;
+  padding-left: 140px;
+}
+p {
+  margin-bottom: 20px;
+}
+h1 {
+  padding: 18px, 0;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.bio {
+  font-size: 25px;
+  color: #333;
+}
+.description {
+  color: #333;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+.header-content .button {
+  background-color: #384aeb;
+  color: white;
+  border: none;
+}
+/*product*/
+.main-product .item {
+  width: 32%;
+  padding: 6px;
+  margin-top: 130px;
+}
+.main-product .item img {
+  width: 100%;
+}
+/*tranding-products*/
+.tranding-products {
+  margin-top: 75px;
+}
+.tranding-products .item {
+  width: 25%;
+  text-align: center;
+  margin-bottom: 25px;
+  margin: 0 22px;
+}
+.tranding-products .description {
+  color: #333;
+  font-size: 17px;
+}
+.tranding-products h2 {
+  padding: 0 0 25px;
+  font-size: 32px;
+}
+.tranding-products h2 span {
+  border-bottom: 2px solid #384aeb;
+}
+.tranding-products .item {
+  width: 22%;
+}
+.tranding-products .item .price {
+  color: #384aeb;
+  font-weight: bold;
+}
+/* .tranding-products .item img{
+  width: 100%;
+} */
